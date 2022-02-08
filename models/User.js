@@ -27,11 +27,11 @@ const UserSchema = new mongoose.Schema({
         type:String,
         default:""
     },
-    follower:{
+    followers:{
         type:Array,
         default:[]
     },
-    following:{
+    followings:{
         type:Array,
         default:[]
     },
