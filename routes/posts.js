@@ -103,11 +103,4 @@ router.get("/:id", async (req, res) => {
 });
 
 
-//GET ALL TIMELINE POSTS OF A USER
-
-router.get("/timeline/all", async (req, res) => {
-  
-});
-
-
 module.exports = router;
